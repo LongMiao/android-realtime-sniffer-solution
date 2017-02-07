@@ -4,7 +4,7 @@ from time import sleep
 import win32pipe, win32file
 
 HOST = '127.0.0.1'
-PORT = 11233
+PORT = 6666
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
